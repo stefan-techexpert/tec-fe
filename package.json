@@ -25,7 +25,8 @@
     "react-dom": "latest"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "2.4.1"
+    "@docusaurus/module-type-aliases": "2.4.1",
+    "isomorphic-style-loader": "^5.3.2"
   },
   "browserslist": {
     "production": [

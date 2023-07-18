@@ -45,20 +45,22 @@ Elevate your success in the tech industry with our tailored approach and guidanc
 function Feature({Svg, title, description, redirect}) {
   return (
     <div className={clsx('col col--4')}>
-        <a class="card padding--lg cardContainer_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module" href={redirect}>
+             <a class="card padding--lg cardContainer_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module" href={redirect}>
 
-           <div className="text--center">
-              <h3>{title}
-              </h3>
+       <div className="text--center">
 
-              <Svg className={styles.featureSvg} role="img" />
 
-              <div className="text--center padding-horiz--md">
-                 <p>{description}</p>
+          <h3>{title}</h3>
+
+            <Svg className={styles.featureSvg} role="img" />
+
+            <div className="text--center padding-horiz--md">
+              <p>{description}</p>
              </div>
-       
-            </div>
-        </a>
+      
+            
+        </div>
+         </a>
     </div>
     
   );

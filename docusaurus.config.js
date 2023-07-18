@@ -97,8 +97,8 @@ const config = {
             items: [
               // TODO: Add tutorials for each section 
               {
-                label: 'Coaches',
-                to: '/docs/intro',
+                label: 'Tutorials',
+                to: '/docs/overview',
               },
             ],
           },
