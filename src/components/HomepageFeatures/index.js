@@ -36,27 +36,29 @@ Elevate your success in the tech industry with our tailored approach and guidanc
       </>
       
     ),
-    title: (<p>Personalised courses</p>)
+    title: (<p>Personalised courses</p>),
+    redirect: "/docs/tutorial-basics/create-a-page"
 
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Svg, title, description, redirect}) {
   return (
     <div className={clsx('col col--4')}>
-              <a class="card padding--lg cardContainer_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module" href="/docs/tutorial-basics/create-a-page">
+        <a class="card padding--lg cardContainer_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module" href={redirect}>
 
-      <div className="text--center">
-        <h3>{title}</h3>
+           <div className="text--center">
+              <h3>{title}
+              </h3>
 
-          <Svg className={styles.featureSvg} role="img" />
+              <Svg className={styles.featureSvg} role="img" />
 
-         <div className="text--center padding-horiz--md">
-          <p>{description}</p>
-      </div>
+              <div className="text--center padding-horiz--md">
+                 <p>{description}</p>
+             </div>
        
-      </div>
-      </a>
+            </div>
+        </a>
     </div>
     
   );
@@ -66,7 +68,6 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
-        
         <div className="row">
           
           {FeatureList.map((props, idx) => (
