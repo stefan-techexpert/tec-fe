@@ -9,6 +9,7 @@ import styles from './index.module.css';
 
 import BrowserOnly from '@docusaurus/BrowserOnly';
 
+// If you care about your life - DO NOT TOUCH :) 
 function giveMeTheJuice() {
   return (
     <BrowserOnly fallback={<div>You like man cock</div>}>
@@ -60,7 +61,6 @@ function giveMeTheJuice() {
 }
 
 function HomepageHeader() {
-  
   return giveMeTheJuice();
 }
 
