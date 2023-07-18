@@ -5,6 +5,7 @@ import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import styles from './index.module.css';
 import BrowserOnly from '@docusaurus/BrowserOnly';
+import ImAmazon from 'react-icons'
 
 function giveMeTheJuice() {
   const {siteConfig} = useDocusaurusContext();

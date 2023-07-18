@@ -33,6 +33,10 @@ const config = {
     locales: ['en'],
   },
 
+  stylesheets: [
+    "https://fonts.googleapis.com/icon?family=Material+Icons",
+  ],
+
   presets: [
     [
       'classic',
@@ -83,8 +87,8 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'right'},
           {
-            href: 'https://www.linkedin.com/in/stefan-tutuianu-74323190/',
-            label: 'Linkedin',
+            href: 'https://www.linkedin.com/company/98330239/',
+            label: 'Want to become a coach?',
             position: 'right',
           },
         ],
@@ -93,12 +97,12 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Tutorials',
+            title: 'Coaching',
             items: [
               // TODO: Add tutorials for each section 
               {
-                label: 'Tutorials',
-                to: '/docs/overview',
+                label: 'Coaching',
+                to: '/docs/coaching-how-it-works',
               },
             ],
           },
@@ -106,15 +110,15 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
+                label: 'YouTube',
                 href: 'https://discordapp.com/invite/docusaurus',
               },
               {
                 label: 'Twitter',
+                href: 'https://twitter.com/docusaurus',
+              },
+              {
+                label: 'Linkedin',
                 href: 'https://twitter.com/docusaurus',
               },
             ],

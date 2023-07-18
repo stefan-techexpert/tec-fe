@@ -23,7 +23,8 @@ Elevate your success in the tech industry with our tailored approach and guidanc
         future that's tailor-made for you. Take charge of your success with top insights from our coaches!
       </>
     ),
-    title: (<p>Career guidance</p>)
+    title: (<p>Career guidance</p>),
+    redirect: "/docs/coaching-how-it-works"
 
   },
   {
@@ -37,7 +38,7 @@ Elevate your success in the tech industry with our tailored approach and guidanc
       
     ),
     title: (<p>Personalised courses</p>),
-    redirect: "/docs/tutorial-basics/create-a-page"
+    redirect: "/docs/coaching-how-it-works"
 
   },
 ];
